@@ -49,7 +49,7 @@ jobs:
           GO_LDFLAGS: ${{ inputs.ld-flags }}
           ACTIONSOS: ${{ inputs.runson }}
           CGO_ENABLED: ${{ inputs.cgo-enabled }}
-        uses: hashicorp/actions-go-build@37358f6098ef21b09542d84a9814ebb843aa4e3e # v1
+        uses: hashicorp/actions-go-build@54313ab6da0718a273907b6d1db287b859b4899a # v1
         with:
           product_name: ${{ inputs.package-name }}
           product_version: ${{ inputs.product-version }}
